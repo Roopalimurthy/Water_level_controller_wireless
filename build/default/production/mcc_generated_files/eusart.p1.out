@@ -1,70 +1,96 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"66 ./mcc_generated_files/spi1.h
-[; ;./mcc_generated_files/spi1.h: 66: uint8_t SPI1_ExchangeByte(uint8_t data);
-[v _SPI1_ExchangeByte `(uc ~T0 @X0 0 ef1`uc ]
-"2139 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2139:     struct {
-[s S117 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S117 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
-"2138
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2138: typedef union {
-[u S116 `S117 1 ]
-[n S116 . . ]
-"2148
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2148: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
-[v _LATAbits `VS116 ~T0 @X0 0 e@268 ]
-[v F192 `(v ~T0 @X0 1 tf1`ul ]
-"12 C:\Program Files\Microchip\xc8\v2.36\pic\include\builtins.h
-[v __delay `JF192 ~T0 @X0 0 e ]
-[p i __delay ]
-"2184 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2184:     struct {
-[s S119 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S119 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 ]
-"2183
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2183: typedef union {
-[u S118 `S119 1 ]
-[n S118 . . ]
-"2193
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2193: extern volatile LATCbits_t LATCbits __attribute__((address(0x10E)));
-[v _LATCbits `VS118 ~T0 @X0 0 e@270 ]
-[p mainexit ]
-"72 ./mcc_generated_files/mcc.h
-[; ;./mcc_generated_files/mcc.h: 72: void SYSTEM_Initialize(void);
-[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"1528 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1528:     struct {
-[s S86 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S86 . TRISA0 TRISA1 TRISA2 . TRISA4 TRISA5 ]
-"1527
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1527: typedef union {
-[u S85 `S86 1 ]
-[n S85 . . ]
-"1537
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1537: extern volatile TRISAbits_t TRISAbits __attribute__((address(0x08C)));
-[v _TRISAbits `VS85 ~T0 @X0 0 e@140 ]
-"1573
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1573:     struct {
-[s S88 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S88 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 ]
-"1572
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1572: typedef union {
-[u S87 `S88 1 ]
-[n S87 . . ]
-"1582
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 1582: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x08E)));
-[v _TRISCbits `VS87 ~T0 @X0 0 e@142 ]
-"438
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 438:     struct {
-[s S35 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S35 . RC0 RC1 RC2 RC3 RC4 RC5 ]
-"437
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 437: typedef union {
-[u S34 `S35 1 ]
-[n S34 . . ]
-"447
-[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 447: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x00E)));
-[v _PORTCbits `VS34 ~T0 @X0 0 e@14 ]
+"76 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 76:     struct {
+[s S700 :1 `uc 1 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S700 . perr ferr oerr reserved ]
+"75
+[; ;mcc_generated_files/eusart.h: 75: typedef union {
+[u S699 `S700 1 `uc 1 ]
+[n S699 . . status ]
+[v F4864 `(v ~T0 @X0 0 tf ]
+[v F4866 `(v ~T0 @X0 0 tf ]
+[v F4868 `(v ~T0 @X0 0 tf ]
+"3425 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3425: extern volatile unsigned char BAUD1CON __attribute__((address(0x19F)));
+[v _BAUD1CON `Vuc ~T0 @X0 0 e@415 ]
+"3065
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3065: extern volatile unsigned char RC1STA __attribute__((address(0x19D)));
+[v _RC1STA `Vuc ~T0 @X0 0 e@413 ]
+"3245
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3245: extern volatile unsigned char TX1STA __attribute__((address(0x19E)));
+[v _TX1STA `Vuc ~T0 @X0 0 e@414 ]
+"2957
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2957: extern volatile unsigned char SP1BRGL __attribute__((address(0x19B)));
+[v _SP1BRGL `Vuc ~T0 @X0 0 e@411 ]
+"3011
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3011: extern volatile unsigned char SP1BRGH __attribute__((address(0x19C)));
+[v _SP1BRGH `Vuc ~T0 @X0 0 e@412 ]
+[v F4851 `(v ~T0 @X0 0 tf ]
+"361 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 361: void EUSART_SetFramingErrorHandler(void (* interruptHandler)(void));
+[v _EUSART_SetFramingErrorHandler `(v ~T0 @X0 0 ef1`*F4851 ]
+"62 mcc_generated_files/eusart.c
+[; ;mcc_generated_files/eusart.c: 62: void EUSART_DefaultFramingErrorHandler(void);
+[v _EUSART_DefaultFramingErrorHandler `(v ~T0 @X0 0 ef ]
+[v F4855 `(v ~T0 @X0 0 tf ]
+"379 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 379: void EUSART_SetOverrunErrorHandler(void (* interruptHandler)(void));
+[v _EUSART_SetOverrunErrorHandler `(v ~T0 @X0 0 ef1`*F4855 ]
+"63 mcc_generated_files/eusart.c
+[; ;mcc_generated_files/eusart.c: 63: void EUSART_DefaultOverrunErrorHandler(void);
+[v _EUSART_DefaultOverrunErrorHandler `(v ~T0 @X0 0 ef ]
+[v F4859 `(v ~T0 @X0 0 tf ]
+"397 mcc_generated_files/eusart.h
+[; ;mcc_generated_files/eusart.h: 397: void EUSART_SetErrorHandler(void (* interruptHandler)(void));
+[v _EUSART_SetErrorHandler `(v ~T0 @X0 0 ef1`*F4859 ]
+"64 mcc_generated_files/eusart.c
+[; ;mcc_generated_files/eusart.c: 64: void EUSART_DefaultErrorHandler(void);
+[v _EUSART_DefaultErrorHandler `(v ~T0 @X0 0 ef ]
+"521 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 521:     struct {
+[s S39 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . TMR1IF TMR2IF BCL1IF SSP1IF TXIF RCIF ADIF TMR1GIF ]
+"520
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 520: typedef union {
+[u S38 `S39 1 ]
+[n S38 . . ]
+"532
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 532: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x011)));
+[v _PIR1bits `VS38 ~T0 @X0 0 e@17 ]
+"3260
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3260:     struct {
+[s S180 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S180 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"3259
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3259: typedef union {
+[u S179 `S180 1 ]
+[n S179 . . ]
+"3271
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3271: extern volatile TX1STAbits_t TX1STAbits __attribute__((address(0x19E)));
+[v _TX1STAbits `VS179 ~T0 @X0 0 e@414 ]
+"3080
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3080:     struct {
+[s S174 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S174 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"3079
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3079: typedef union {
+[u S173 `S174 1 ]
+[n S173 . . ]
+"3091
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 3091: extern volatile RC1STAbits_t RC1STAbits __attribute__((address(0x19D)));
+[v _RC1STAbits `VS173 ~T0 @X0 0 e@413 ]
+"2837
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2837: extern volatile unsigned char RC1REG __attribute__((address(0x199)));
+[v _RC1REG `Vuc ~T0 @X0 0 e@409 ]
+"2891
+[; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 2891: extern volatile unsigned char TX1REG __attribute__((address(0x19A)));
+[v _TX1REG `Vuc ~T0 @X0 0 e@410 ]
+[v F4887 `(v ~T0 @X0 0 tf ]
+[v F4889 `(v ~T0 @X0 0 tf ]
+[v F4892 `(v ~T0 @X0 0 tf ]
+[v F4894 `(v ~T0 @X0 0 tf ]
+[v F4897 `(v ~T0 @X0 0 tf ]
+[v F4899 `(v ~T0 @X0 0 tf ]
 "52 C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h
 [; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 52: __asm("INDF0 equ 00h");
 [; <" INDF0 equ 00h ;# ">
@@ -845,437 +871,277 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13753
 [; ;C:/Users/dell/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc\pic16f18323.h: 13753: __asm("TOSH equ 0FEFh");
 [; <" TOSH equ 0FEFh ;# ">
-"31 main.c
-[; ;main.c: 31: uint8_t NRF_SPI(uint8_t data) {
-[v _NRF_SPI `(uc ~T0 @X0 1 ef1`uc ]
-{
-[e :U _NRF_SPI ]
-[v _data `uc ~T0 @X0 1 r1 ]
-[f ]
-"32
-[; ;main.c: 32:     return SPI1_ExchangeByte(data);
-[e ) ( _SPI1_ExchangeByte (1 _data ]
-[e $UE 703  ]
-"33
-[; ;main.c: 33: }
-[e :UE 703 ]
-}
-"35
-[; ;main.c: 35: void NRF_WriteRegister(uint8_t reg, uint8_t value) {
-[v _NRF_WriteRegister `(v ~T0 @X0 1 ef2`uc`uc ]
-{
-[e :U _NRF_WriteRegister ]
-[v _reg `uc ~T0 @X0 1 r1 ]
-[v _value `uc ~T0 @X0 1 r2 ]
-[f ]
-"36
-[; ;main.c: 36:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-"37
-[; ;main.c: 37:     NRF_SPI(0x20 | (reg & 0x1F));
-[e ( _NRF_SPI (1 -> | -> 32 `i & -> _reg `i -> 31 `i `uc ]
-"38
-[; ;main.c: 38:     NRF_SPI(value);
-[e ( _NRF_SPI (1 _value ]
-"39
-[; ;main.c: 39:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"40
-[; ;main.c: 40: }
-[e :UE 704 ]
-}
-"42
-[; ;main.c: 42: void NRF_WriteRegisterMulti(uint8_t reg, uint8_t *data, uint8_t len) {
-[v _NRF_WriteRegisterMulti `(v ~T0 @X0 1 ef3`uc`*uc`uc ]
-{
-[e :U _NRF_WriteRegisterMulti ]
-[v _reg `uc ~T0 @X0 1 r1 ]
-[v _data `*uc ~T0 @X0 1 r2 ]
-[v _len `uc ~T0 @X0 1 r3 ]
-[f ]
-"43
-[; ;main.c: 43:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-"44
-[; ;main.c: 44:     NRF_SPI(0x20 | (reg & 0x1F));
-[e ( _NRF_SPI (1 -> | -> 32 `i & -> _reg `i -> 31 `i `uc ]
-"45
-[; ;main.c: 45:     for (uint8_t i = 0; i < len; i++)
-{
-[v _i `uc ~T0 @X0 1 a ]
-[e = _i -> -> 0 `i `uc ]
-[e $U 709  ]
-[e :U 706 ]
-"46
-[; ;main.c: 46:         NRF_SPI(data[i]);
-[e ( _NRF_SPI (1 *U + _data * -> _i `ux -> -> # *U _data `ui `ux ]
-[e ++ _i -> -> 1 `i `uc ]
-[e :U 709 ]
-[e $ < -> _i `i -> _len `i 706  ]
-[e :U 707 ]
-}
-"47
-[; ;main.c: 47:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"48
-[; ;main.c: 48: }
-[e :UE 705 ]
-}
-"50
-[; ;main.c: 50: uint8_t NRF_ReadRegister(uint8_t reg) {
-[v _NRF_ReadRegister `(uc ~T0 @X0 1 ef1`uc ]
-{
-[e :U _NRF_ReadRegister ]
-[v _reg `uc ~T0 @X0 1 r1 ]
-[f ]
-"51
-[; ;main.c: 51:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-"52
-[; ;main.c: 52:     NRF_SPI(0x00 | (reg & 0x1F));
-[e ( _NRF_SPI (1 -> | -> 0 `i & -> _reg `i -> 31 `i `uc ]
-"53
-[; ;main.c: 53:     uint8_t result = NRF_SPI(0xFF);
-[v _result `uc ~T0 @X0 1 a ]
-[e = _result ( _NRF_SPI (1 -> -> 255 `i `uc ]
-"54
-[; ;main.c: 54:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"55
-[; ;main.c: 55:     return result;
-[e ) _result ]
-[e $UE 710  ]
-"56
-[; ;main.c: 56: }
-[e :UE 710 ]
-}
+"52 mcc_generated_files/eusart.c
+[; ;mcc_generated_files/eusart.c: 52: volatile eusart_status_t eusartRxLastError;
+[v _eusartRxLastError `VS699 ~T0 @X0 1 e ]
 "58
-[; ;main.c: 58: void NRF_ReadPayload(uint8_t *data, uint8_t len) {
-[v _NRF_ReadPayload `(v ~T0 @X0 1 ef2`*uc`uc ]
-{
-[e :U _NRF_ReadPayload ]
-[v _data `*uc ~T0 @X0 1 r1 ]
-[v _len `uc ~T0 @X0 1 r2 ]
-[f ]
+[; ;mcc_generated_files/eusart.c: 58: void (*EUSART_FramingErrorHandler)(void);
+[v _EUSART_FramingErrorHandler `*F4864 ~T0 @X0 1 e ]
 "59
-[; ;main.c: 59:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 59: void (*EUSART_OverrunErrorHandler)(void);
+[v _EUSART_OverrunErrorHandler `*F4866 ~T0 @X0 1 e ]
 "60
-[; ;main.c: 60:     NRF_SPI(0x61);
-[e ( _NRF_SPI (1 -> -> 97 `i `uc ]
-"61
-[; ;main.c: 61:     for (uint8_t i = 0; i < len; i++)
-{
-[v _i `uc ~T0 @X0 1 a ]
-[e = _i -> -> 0 `i `uc ]
-[e $U 715  ]
-[e :U 712 ]
-"62
-[; ;main.c: 62:         data[i] = NRF_SPI(0xFF);
-[e = *U + _data * -> _i `ux -> -> # *U _data `ui `ux ( _NRF_SPI (1 -> -> 255 `i `uc ]
-[e ++ _i -> -> 1 `i `uc ]
-[e :U 715 ]
-[e $ < -> _i `i -> _len `i 712  ]
-[e :U 713 ]
-}
-"63
-[; ;main.c: 63:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 60: void (*EUSART_ErrorHandler)(void);
+[v _EUSART_ErrorHandler `*F4868 ~T0 @X0 1 e ]
 "66
-[; ;main.c: 66:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 66: void EUSART_Initialize(void)
+[v _EUSART_Initialize `(v ~T0 @X0 1 ef ]
 "67
-[; ;main.c: 67:     NRF_SPI(0xE2);
-[e ( _NRF_SPI (1 -> -> 226 `i `uc ]
-"68
-[; ;main.c: 68:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"69
-[; ;main.c: 69: }
-[e :UE 711 ]
-}
+[; ;mcc_generated_files/eusart.c: 67: {
+{
+[e :U _EUSART_Initialize ]
+[f ]
 "71
-[; ;main.c: 71: void NRF_ClearStatus() {
-[v _NRF_ClearStatus `(v ~T0 @X0 1 ef ]
-{
-[e :U _NRF_ClearStatus ]
-[f ]
-"72
-[; ;main.c: 72:     NRF_WriteRegister(0x07, 0x70);
-[e ( _NRF_WriteRegister (2 , -> -> 7 `i `uc -> -> 112 `i `uc ]
-"73
-[; ;main.c: 73: }
-[e :UE 716 ]
-}
-"75
-[; ;main.c: 75: void NRF_RX_Init() {
-[v _NRF_RX_Init `(v ~T0 @X0 1 ef ]
-{
-[e :U _NRF_RX_Init ]
-[f ]
-"76
-[; ;main.c: 76:     _delay((unsigned long)((100)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-[v F5234 `uc ~T0 @X0 -> 5 `i s ]
-[i F5234
-:U ..
+[; ;mcc_generated_files/eusart.c: 71:     BAUD1CON = 0x08;
+[e = _BAUD1CON -> -> 8 `i `uc ]
+"74
+[; ;mcc_generated_files/eusart.c: 74:     RC1STA = 0x80;
+[e = _RC1STA -> -> 128 `i `uc ]
 "77
-[; ;main.c: 77:     uint8_t rx_address[5] = {'A', 'A', 'A', 'A', 'A'};
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
-..
-]
-[v _rx_address `uc ~T0 @X0 -> 5 `i a ]
-[e = _rx_address F5234 ]
-"79
-[; ;main.c: 79:     LATCbits.LATC5 = 0;
-[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
-"81
-[; ;main.c: 81:     NRF_WriteRegister(0x00, 0x0B);
-[e ( _NRF_WriteRegister (2 , -> -> 0 `i `uc -> -> 11 `i `uc ]
-"82
-[; ;main.c: 82:     NRF_WriteRegister(0x01, 0x01);
-[e ( _NRF_WriteRegister (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 77:     TX1STA = 0x24;
+[e = _TX1STA -> -> 36 `i `uc ]
+"80
+[; ;mcc_generated_files/eusart.c: 80:     SP1BRGL = 0x40;
+[e = _SP1BRGL -> -> 64 `i `uc ]
 "83
-[; ;main.c: 83:     NRF_WriteRegister(0x05, 0x02);
-[e ( _NRF_WriteRegister (2 , -> -> 5 `i `uc -> -> 2 `i `uc ]
-"84
-[; ;main.c: 84:     NRF_WriteRegister(0x06, 0x06);
-[e ( _NRF_WriteRegister (2 , -> -> 6 `i `uc -> -> 6 `i `uc ]
-"85
-[; ;main.c: 85:     NRF_WriteRegister(0x03, 0x03);
-[e ( _NRF_WriteRegister (2 , -> -> 3 `i `uc -> -> 3 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 83:     SP1BRGH = 0x03;
+[e = _SP1BRGH -> -> 3 `i `uc ]
 "86
-[; ;main.c: 86:     NRF_WriteRegister(0x11, 1);
-[e ( _NRF_WriteRegister (2 , -> -> 17 `i `uc -> -> 1 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 86:     EUSART_SetFramingErrorHandler(EUSART_DefaultFramingErrorHandler);
+[e ( _EUSART_SetFramingErrorHandler (1 &U _EUSART_DefaultFramingErrorHandler ]
 "87
-[; ;main.c: 87:     NRF_WriteRegisterMulti(0x0A, rx_address, 5);
-[e ( _NRF_WriteRegisterMulti (3 , , -> -> 10 `i `uc &U _rx_address -> -> 5 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 87:     EUSART_SetOverrunErrorHandler(EUSART_DefaultOverrunErrorHandler);
+[e ( _EUSART_SetOverrunErrorHandler (1 &U _EUSART_DefaultOverrunErrorHandler ]
+"88
+[; ;mcc_generated_files/eusart.c: 88:     EUSART_SetErrorHandler(EUSART_DefaultErrorHandler);
+[e ( _EUSART_SetErrorHandler (1 &U _EUSART_DefaultErrorHandler ]
 "90
-[; ;main.c: 90:     NRF_ClearStatus();
-[e ( _NRF_ClearStatus ..  ]
+[; ;mcc_generated_files/eusart.c: 90:     eusartRxLastError.status = 0;
+[e = . _eusartRxLastError 1 -> -> 0 `i `uc ]
 "92
-[; ;main.c: 92:     LATCbits.LATC5 = 1;
-[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
-"93
-[; ;main.c: 93: }
-[e :UE 717 ]
+[; ;mcc_generated_files/eusart.c: 92: }
+[e :UE 701 ]
 }
-"100
-[; ;main.c: 100: void NRF_TX_Init() {
-[v _NRF_TX_Init `(v ~T0 @X0 1 ef ]
+"94
+[; ;mcc_generated_files/eusart.c: 94: _Bool EUSART_is_tx_ready(void)
+[v _EUSART_is_tx_ready `(a ~T0 @X0 1 ef ]
+"95
+[; ;mcc_generated_files/eusart.c: 95: {
 {
-[e :U _NRF_TX_Init ]
+[e :U _EUSART_is_tx_ready ]
+[f ]
+"96
+[; ;mcc_generated_files/eusart.c: 96:     return (_Bool)(PIR1bits.TXIF && TX1STAbits.TXEN);
+[e ) -> -> && != -> . . _PIR1bits 0 4 `i -> 0 `i != -> . . _TX1STAbits 0 5 `i -> 0 `i `i `a ]
+[e $UE 702  ]
+"97
+[; ;mcc_generated_files/eusart.c: 97: }
+[e :UE 702 ]
+}
+"99
+[; ;mcc_generated_files/eusart.c: 99: _Bool EUSART_is_rx_ready(void)
+[v _EUSART_is_rx_ready `(a ~T0 @X0 1 ef ]
+"100
+[; ;mcc_generated_files/eusart.c: 100: {
+{
+[e :U _EUSART_is_rx_ready ]
 [f ]
 "101
-[; ;main.c: 101:     _delay((unsigned long)((100)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-[v F5237 `uc ~T0 @X0 -> 5 `i s ]
-[i F5237
-:U ..
+[; ;mcc_generated_files/eusart.c: 101:     return (_Bool)(PIR1bits.RCIF);
+[e ) -> . . _PIR1bits 0 5 `a ]
+[e $UE 703  ]
+"102
+[; ;mcc_generated_files/eusart.c: 102: }
+[e :UE 703 ]
+}
 "104
-[; ;main.c: 104:     uint8_t tx_address[5] = {'A', 'A', 'A', 'A', 'A'};
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
--> -> 65 `ui `uc
-..
-]
-[v _tx_address `uc ~T0 @X0 -> 5 `i a ]
-[e = _tx_address F5237 ]
+[; ;mcc_generated_files/eusart.c: 104: _Bool EUSART_is_tx_done(void)
+[v _EUSART_is_tx_done `(a ~T0 @X0 1 ef ]
+"105
+[; ;mcc_generated_files/eusart.c: 105: {
+{
+[e :U _EUSART_is_tx_done ]
+[f ]
 "106
-[; ;main.c: 106:     LATCbits.LATC5 = 0;
-[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
-"108
-[; ;main.c: 108:     NRF_WriteRegister(0x00, 0x0A);
-[e ( _NRF_WriteRegister (2 , -> -> 0 `i `uc -> -> 10 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 106:     return TX1STAbits.TRMT;
+[e ) -> . . _TX1STAbits 0 1 `a ]
+[e $UE 704  ]
+"107
+[; ;mcc_generated_files/eusart.c: 107: }
+[e :UE 704 ]
+}
+"109
+[; ;mcc_generated_files/eusart.c: 109: eusart_status_t EUSART_get_last_status(void){
+[v _EUSART_get_last_status `(S699 ~T0 @X0 1 ef ]
+{
+[e :U _EUSART_get_last_status ]
+[f ]
 "110
-[; ;main.c: 110:     NRF_WriteRegister((uint8_t)0x04,(uint8_t)0x2A);
-[e ( _NRF_WriteRegister (2 , -> -> 4 `i `uc -> -> 42 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 110:     return eusartRxLastError;
+[e ) _eusartRxLastError ]
+[e $UE 705  ]
 "111
-[; ;main.c: 111:     NRF_WriteRegister(0x01, 0X01);
-[e ( _NRF_WriteRegister (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 111: }
+[e :UE 705 ]
+}
 "113
-[; ;main.c: 113:     NRF_WriteRegister(0x05, 0x02);
-[e ( _NRF_WriteRegister (2 , -> -> 5 `i `uc -> -> 2 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 113: uint8_t EUSART_Read(void)
+[v _EUSART_Read `(uc ~T0 @X0 1 ef ]
+"114
+[; ;mcc_generated_files/eusart.c: 114: {
+{
+[e :U _EUSART_Read ]
+[f ]
+"115
+[; ;mcc_generated_files/eusart.c: 115:     while(!PIR1bits.RCIF)
+[e $U 707  ]
+[e :U 708 ]
 "116
-[; ;main.c: 116:     NRF_WriteRegister(0x06 ,(uint8_t)6 );
-[e ( _NRF_WriteRegister (2 , -> -> 6 `i `uc -> -> 6 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 116:     {
+{
 "117
-[; ;main.c: 117:     NRF_WriteRegister(0x03, 0x03);
-[e ( _NRF_WriteRegister (2 , -> -> 3 `i `uc -> -> 3 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 117:     }
+}
+[e :U 707 ]
+"115
+[; ;mcc_generated_files/eusart.c: 115:     while(!PIR1bits.RCIF)
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 708  ]
+[e :U 709 ]
 "119
-[; ;main.c: 119:     NRF_WriteRegisterMulti(0x10, tx_address, 5);
-[e ( _NRF_WriteRegisterMulti (3 , , -> -> 16 `i `uc &U _tx_address -> -> 5 `i `uc ]
-"120
-[; ;main.c: 120:     NRF_WriteRegisterMulti(0x0A, tx_address, 5);
-[e ( _NRF_WriteRegisterMulti (3 , , -> -> 10 `i `uc &U _tx_address -> -> 5 `i `uc ]
+[; ;mcc_generated_files/eusart.c: 119:     eusartRxLastError.status = 0;
+[e = . _eusartRxLastError 1 -> -> 0 `i `uc ]
+"121
+[; ;mcc_generated_files/eusart.c: 121:     if(1 == RC1STAbits.OERR)
+[e $ ! == -> 1 `i -> . . _RC1STAbits 0 1 `i 710  ]
 "122
-[; ;main.c: 122:     LATCbits.LATC5 = 1;
-[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
-"123
-[; ;main.c: 123:     _delay((unsigned long)((2)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"124
-[; ;main.c: 124: }
+[; ;mcc_generated_files/eusart.c: 122:     {
+{
+"125
+[; ;mcc_generated_files/eusart.c: 125:         RC1STAbits.CREN = 0;
+[e = . . _RC1STAbits 0 4 -> -> 0 `i `uc ]
+"126
+[; ;mcc_generated_files/eusart.c: 126:         RC1STAbits.CREN = 1;
+[e = . . _RC1STAbits 0 4 -> -> 1 `i `uc ]
+"127
+[; ;mcc_generated_files/eusart.c: 127:     }
+}
+[e :U 710 ]
+"129
+[; ;mcc_generated_files/eusart.c: 129:     return RC1REG;
+[e ) _RC1REG ]
+[e $UE 706  ]
+"130
+[; ;mcc_generated_files/eusart.c: 130: }
+[e :UE 706 ]
+}
+"132
+[; ;mcc_generated_files/eusart.c: 132: void EUSART_Write(uint8_t txData)
+[v _EUSART_Write `(v ~T0 @X0 1 ef1`uc ]
+"133
+[; ;mcc_generated_files/eusart.c: 133: {
+{
+[e :U _EUSART_Write ]
+"132
+[; ;mcc_generated_files/eusart.c: 132: void EUSART_Write(uint8_t txData)
+[v _txData `uc ~T0 @X0 1 r1 ]
+"133
+[; ;mcc_generated_files/eusart.c: 133: {
+[f ]
+"134
+[; ;mcc_generated_files/eusart.c: 134:     while(0 == PIR1bits.TXIF)
+[e $U 712  ]
+[e :U 713 ]
+"135
+[; ;mcc_generated_files/eusart.c: 135:     {
+{
+"136
+[; ;mcc_generated_files/eusart.c: 136:     }
+}
+[e :U 712 ]
+"134
+[; ;mcc_generated_files/eusart.c: 134:     while(0 == PIR1bits.TXIF)
+[e $ == -> 0 `i -> . . _PIR1bits 0 4 `i 713  ]
+[e :U 714 ]
+"138
+[; ;mcc_generated_files/eusart.c: 138:     TX1REG = txData;
+[e = _TX1REG _txData ]
+"139
+[; ;mcc_generated_files/eusart.c: 139: }
+[e :UE 711 ]
+}
+"144
+[; ;mcc_generated_files/eusart.c: 144: void EUSART_DefaultFramingErrorHandler(void){}
+[v _EUSART_DefaultFramingErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART_DefaultFramingErrorHandler ]
+[f ]
+[e :UE 715 ]
+}
+"146
+[; ;mcc_generated_files/eusart.c: 146: void EUSART_DefaultOverrunErrorHandler(void){
+[v _EUSART_DefaultOverrunErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART_DefaultOverrunErrorHandler ]
+[f ]
+"149
+[; ;mcc_generated_files/eusart.c: 149:     RC1STAbits.CREN = 0;
+[e = . . _RC1STAbits 0 4 -> -> 0 `i `uc ]
+"150
+[; ;mcc_generated_files/eusart.c: 150:     RC1STAbits.CREN = 1;
+[e = . . _RC1STAbits 0 4 -> -> 1 `i `uc ]
+"152
+[; ;mcc_generated_files/eusart.c: 152: }
+[e :UE 716 ]
+}
+"154
+[; ;mcc_generated_files/eusart.c: 154: void EUSART_DefaultErrorHandler(void){
+[v _EUSART_DefaultErrorHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _EUSART_DefaultErrorHandler ]
+[f ]
+"155
+[; ;mcc_generated_files/eusart.c: 155: }
+[e :UE 717 ]
+}
+"157
+[; ;mcc_generated_files/eusart.c: 157: void EUSART_SetFramingErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART_SetFramingErrorHandler `(v ~T0 @X0 1 ef1`*F4887 ]
+{
+[e :U _EUSART_SetFramingErrorHandler ]
+[v _interruptHandler `*F4889 ~T0 @X0 1 r1 ]
+[f ]
+"158
+[; ;mcc_generated_files/eusart.c: 158:     EUSART_FramingErrorHandler = interruptHandler;
+[e = _EUSART_FramingErrorHandler _interruptHandler ]
+"159
+[; ;mcc_generated_files/eusart.c: 159: }
 [e :UE 718 ]
 }
-"127
-[; ;main.c: 127: void NRF_FlushTX() {
-[v _NRF_FlushTX `(v ~T0 @X0 1 ef ]
+"161
+[; ;mcc_generated_files/eusart.c: 161: void EUSART_SetOverrunErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART_SetOverrunErrorHandler `(v ~T0 @X0 1 ef1`*F4892 ]
 {
-[e :U _NRF_FlushTX ]
+[e :U _EUSART_SetOverrunErrorHandler ]
+[v _interruptHandler `*F4894 ~T0 @X0 1 r1 ]
 [f ]
-"128
-[; ;main.c: 128:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-"129
-[; ;main.c: 129:     NRF_SPI(0xE1);
-[e ( _NRF_SPI (1 -> -> 225 `i `uc ]
-"130
-[; ;main.c: 130:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"131
-[; ;main.c: 131: }
+"162
+[; ;mcc_generated_files/eusart.c: 162:     EUSART_OverrunErrorHandler = interruptHandler;
+[e = _EUSART_OverrunErrorHandler _interruptHandler ]
+"163
+[; ;mcc_generated_files/eusart.c: 163: }
 [e :UE 719 ]
 }
-"134
-[; ;main.c: 134: void NRF_SendPayload(uint8_t *data, uint8_t len) {
-[v _NRF_SendPayload `(v ~T0 @X0 1 ef2`*uc`uc ]
+"165
+[; ;mcc_generated_files/eusart.c: 165: void EUSART_SetErrorHandler(void (* interruptHandler)(void)){
+[v _EUSART_SetErrorHandler `(v ~T0 @X0 1 ef1`*F4897 ]
 {
-[e :U _NRF_SendPayload ]
-[v _data `*uc ~T0 @X0 1 r1 ]
-[v _len `uc ~T0 @X0 1 r2 ]
+[e :U _EUSART_SetErrorHandler ]
+[v _interruptHandler `*F4899 ~T0 @X0 1 r1 ]
 [f ]
-"135
-[; ;main.c: 135:     LATAbits.LATA4 = 0;
-[e = . . _LATAbits 0 4 -> -> 0 `i `uc ]
-"136
-[; ;main.c: 136:     NRF_SPI(0xA0);
-[e ( _NRF_SPI (1 -> -> 160 `i `uc ]
-"137
-[; ;main.c: 137:     for (uint8_t i = 0; i < len; i++)
-{
-[v _i `uc ~T0 @X0 1 a ]
-[e = _i -> -> 0 `i `uc ]
-[e $U 724  ]
-[e :U 721 ]
-"138
-[; ;main.c: 138:         NRF_SPI(data[i]);
-[e ( _NRF_SPI (1 *U + _data * -> _i `ux -> -> # *U _data `ui `ux ]
-[e ++ _i -> -> 1 `i `uc ]
-[e :U 724 ]
-[e $ < -> _i `i -> _len `i 721  ]
-[e :U 722 ]
-}
-"139
-[; ;main.c: 139:     LATAbits.LATA4 = 1;
-[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
-"140
-[; ;main.c: 140: }
+"166
+[; ;mcc_generated_files/eusart.c: 166:     EUSART_ErrorHandler = interruptHandler;
+[e = _EUSART_ErrorHandler _interruptHandler ]
+"167
+[; ;mcc_generated_files/eusart.c: 167: }
 [e :UE 720 ]
-}
-[v $root$_main `(v ~T0 @X0 0 e ]
-"142
-[; ;main.c: 142: void main(void) {
-[v _main `(v ~T0 @X0 1 ef ]
-{
-[e :U _main ]
-[f ]
-"143
-[; ;main.c: 143:     SYSTEM_Initialize();
-[e ( _SYSTEM_Initialize ..  ]
-"146
-[; ;main.c: 146:     TRISAbits.TRISA2 = 0;
-[e = . . _TRISAbits 0 2 -> -> 0 `i `uc ]
-"149
-[; ;main.c: 149:      TRISCbits.TRISC3=1;
-[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
-"153
-[; ;main.c: 153:           NRF_TX_Init();
-[e ( _NRF_TX_Init ..  ]
-"154
-[; ;main.c: 154:            _delay((unsigned long)((100)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"157
-[; ;main.c: 157:     while (1) {
-[e :U 727 ]
-{
-"171
-[; ;main.c: 171:          if(PORTCbits.RC3 == 1)
-[e $ ! == -> . . _PORTCbits 0 3 `i -> 1 `i 729  ]
-"172
-[; ;main.c: 172:         {
-{
-"173
-[; ;main.c: 173:         _delay((unsigned long)((50)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"174
-[; ;main.c: 174:         if (PORTCbits.RC3 == 1)
-[e $ ! == -> . . _PORTCbits 0 3 `i -> 1 `i 730  ]
-"175
-[; ;main.c: 175:         {
-{
-[v F5245 `uc ~T0 @X0 -> -> 1 `i `ux s ]
-[i F5245
-:U ..
-"176
-[; ;main.c: 176:             uint8_t data[] = {0x44};
--> -> 68 `i `uc
-..
-]
-[v _data `uc ~T0 @X0 -> -> 1 `i `ux a ]
-[e = _data F5245 ]
-"178
-[; ;main.c: 178:             LATCbits.LATC5 = 0;
-[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
-"179
-[; ;main.c: 179:             NRF_FlushTX();
-[e ( _NRF_FlushTX ..  ]
-"180
-[; ;main.c: 180:             NRF_SendPayload(data, 1);
-[e ( _NRF_SendPayload (2 , &U _data -> -> 1 `i `uc ]
-"181
-[; ;main.c: 181:             NRF_WriteRegister(0x07, 0x70);
-[e ( _NRF_WriteRegister (2 , -> -> 7 `i `uc -> -> 112 `i `uc ]
-"182
-[; ;main.c: 182:             LATCbits.LATC5 = 1;
-[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
-"183
-[; ;main.c: 183:             _delay((unsigned long)((15)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"184
-[; ;main.c: 184:             LATCbits.LATC5 = 0;
-[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
-"187
-[; ;main.c: 187:             while (PORTCbits.RC3 == 1);
-[e $U 731  ]
-[e :U 732 ]
-[e :U 731 ]
-[e $ == -> . . _PORTCbits 0 3 `i -> 1 `i 732  ]
-[e :U 733 ]
-"188
-[; ;main.c: 188:             _delay((unsigned long)((10)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"192
-[; ;main.c: 192:         }
-}
-[e :U 730 ]
-"194
-[; ;main.c: 194:     }
-}
-[e :U 729 ]
-"197
-[; ;main.c: 197:         }
-}
-[e :U 726 ]
-[e $U 727  ]
-[e :U 728 ]
-"198
-[; ;main.c: 198:     }
-[e :UE 725 ]
 }

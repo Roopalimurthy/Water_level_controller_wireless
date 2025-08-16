@@ -9,12 +9,12 @@
 ### Memory Usage ###
  Intel Hex-file ranges:
   0h - 1h		(dist/default/production\sap_working_wate_RX.X.production.hex)
-  8h - 439h		(dist/default/production\sap_working_wate_RX.X.production.hex)
+  8h - 459h		(dist/default/production\sap_working_wate_RX.X.production.hex)
   10000h - 10007h		(dist/default/production\sap_working_wate_RX.X.production.hex)
   1000Eh - 10015h		(dist/default/production\sap_working_wate_RX.X.production.hex)
  Unused ranges:
   2h - 7h
-  43Ah - FFFFh
+  45Ah - FFFFh
   10008h - 1000Dh
 
 ### Hex Memory Map ###
@@ -91,7 +91,9 @@
 00000400 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000410 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000420 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00000430 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
+00000430 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000440 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00000450 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
 00010000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- H1 H1
 00010010 | H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- --

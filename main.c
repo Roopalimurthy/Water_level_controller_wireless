@@ -147,32 +147,33 @@ void main(void) {
     
     //////////////////////tx switch///////////
      TRISCbits.TRISC3=1;  //switch as input
-    __delay_ms(100); // Ensure NRF has time to power up
+//    __delay_ms(100); // Ensure NRF has time to power up
 
-    NRF_RX_Init();
-
-    uint8_t payload[1];
+//    NRF_RX_Init();
+          NRF_TX_Init();  // Back to RX mode
+           __delay_ms(100); // Ensure NRF has time to power up
+//    uint8_t payload[1];
 
     while (1) {
-        uint8_t status = NRF_ReadRegister(STATUS);
-        if (status & 0x40) {  // RX_DR (data received)
-            NRF_ReadPayload(payload, 1);
-            NRF_ClearStatus();
-
-            if (payload[0] == 0x55) {
-                LATAbits.LATA2 = 1;
-                __delay_ms(100);
-                LATAbits.LATA2 = 0;
-            }
-        }
+//        uint8_t status = NRF_ReadRegister(STATUS);
+//        if (status & 0x40) {  // RX_DR (data received)
+//            NRF_ReadPayload(payload, 1);
+//            NRF_ClearStatus();
+//
+//            if (payload[0] == 0x55) {
+//                LATAbits.LATA2 = 1;
+//                __delay_ms(100);
+//                LATAbits.LATA2 = 0;
+//            }
+//        }
         
   ///////////////transmittor code/////////////////////////////
-        else if(PORTCbits.RC3 == 1)
+         if(PORTCbits.RC3 == 1)
         {
         __delay_ms(50); // debounce
         if (PORTCbits.RC3 == 1) // still pressed
         {
-            uint8_t data[] = {0xAA}; // data to send
+            uint8_t data[] = {0x44}; // data to send
 
             NRF_CE_LOW();     // Stop TX to load new payload
             NRF_FlushTX();    // Clear old data
@@ -185,8 +186,8 @@ void main(void) {
             // Optional: small delay to avoid repeated sends while holding
             while (PORTCbits.RC3 == 1); // wait for button release
             __delay_ms(10); // Wait to complete send
-                NRF_TX_Init();  // Back to RX mode
-                __delay_ms(150);
+//                NRF_TX_Init();  // Back to RX mode
+//                __delay_ms(150);
 
         }
 
